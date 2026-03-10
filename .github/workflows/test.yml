@@ -24,12 +24,12 @@ jobs:
           echo "Démarrage du pipeline d’intégration continue"
           echo "STEP1= $STEP1"
           
-      - name: Étape 1 - Variable Repository
+      - name: Étape 2 - Variable Repository
         run: |
           echo "Variable d'environnement pour l'etape 2"
           echo "STEP2= ${{ vars.STEP2 }}"
 
-      - name: Étape 1 - Variable Secret
+      - name: Étape 3 - Variable Secret
         run: |
           echo "Variable d'environnement pour l'etape 3"
           echo "STEP3= ${{ vars.STEP3 }}"
