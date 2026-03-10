@@ -28,3 +28,8 @@ jobs:
         run: |
           echo "Variable d'environnement pour l'etape 2"
           echo "STEP2= ${{ vars.STEP2 }}"
+
+      - name: Étape 1 - Variable Secret
+        run: |
+          echo "Variable d'environnement pour l'etape 3"
+          echo "STEP3= ${{ vars.STEP3 }}"
